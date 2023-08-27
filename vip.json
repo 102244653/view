@@ -10,8 +10,8 @@
         }
     ],
     //爬虫包
-    //"spider": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;8f735b6bf0cda5984e8ec2c184fa9cd0",
-    "spider":"http://www.lyyytv.cn/yt/yt.jar;md5;fd6a2cf8f31c7112731c5f90dab94847",
+    "spider": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;8f735b6bf0cda5984e8ec2c184fa9cd0",
+    //"spider":"http://www.lyyytv.cn/yt/yt.jar;md5;fd6a2cf8f31c7112731c5f90dab94847",
     //"spider":"https://ghproxy.com/?q=https%3A%2F%2Fgithub.com%2F102244653%2Fview%2Fblob%2Fmain%2Fyt.jar;md5;fd6a2cf8f31c7112731c5f90dab94847",
     //壁纸
     //"wallpaper":"http://饭太硬.top/深色壁纸/api.php",
@@ -37,17 +37,6 @@
         //     "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/drpy.js"
         // },
         {
-            // http://www.lyyytv.cn/yt/yt.json
-            "key":"csp_appys_影探",
-            "name":"❤影探┋☀小侦探",
-            "type":3,
-            "api":"csp_AppYsV2",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1,
-            "ext":"http://gvvwvvvvwwwvvvvvvwvwwvwvwvwvwvwvwvwvwvwwvwvwvwvwvwvwvwvvwvwvwvv.lfytyl.com/api.php/app/"
-        },
-        {
             "key":"csp_XYQHiker_‍dyx",
             "name":"宙磁高清┋☀小侦探",
             "type":3,
@@ -57,6 +46,17 @@
             "filterable":1,
             "ext":"https://pan.shangui.cc/f/2mL4hx/dyg.json",
             "jar":"https://pan.shangui.cc/f/MeZ1uy/spider.txt;md5;B880BBAD2845D16CFB86CCA0331B2621"
+        },
+        {
+            "key": "农民影视",
+            "name": "✈️农民┋☀小侦探",
+            "type": 3,
+            "api": "https://drpy.cainisi.cf/libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "https://drpy.cainisi.cf/js/农民影视.js"
         },
         {
             "key": "xhtx",
@@ -183,7 +183,25 @@
             "filterable":1,
             "changeable":1,
             "ext":"https://tvbox.cainisi.cf/json/XBPQ/乐猪TV.json"
+        },    
+       {
+            "key": "厂长资源",
+            "name": " 厂长┋☀小侦探",
+            "type": 3,
+            "api": "https://drpy.cainisi.cf/libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "https://drpy.cainisi.cf/js/厂长资源.js"
         },
+        //{
+        //    "key":"drpy_js_厂长资源",
+        //   "name":" 厂长┋☀小侦探",
+        //    "type":3,
+        //    "api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+        //    "ext":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/厂长资源.js"
+        //},
         {
             "key":"drpy_js_优酷",
             "name":"优酷┋☀小侦探",
